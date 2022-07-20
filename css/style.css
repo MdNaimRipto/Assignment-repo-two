@@ -434,3 +434,79 @@ Information Section index.html Ends
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/*------------ 
+Tablet Device 
+-------------*/
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .banner-info {
+        position: static;
+    }
+
+    .banner-info h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .banner-info p {
+        font-size: 13px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .information-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-buttons {
+        background-color: #FFFFFF;
+        flex-direction: row;
+        width: 550px;
+        height: 150px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+
+    .site-buttons button {
+        border: 1px solid #ddd;
+        width: 165px;
+        margin: 0px 10px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single-blog {
+        width: 315px;
+        margin: auto;
+    }
+
+    .extra-blog {
+        display: none;
+    }
+
+    .view-all {
+        display: block;
+    }
+
+    .footer h2 {
+        width: 650px;
+    }
+
+    .upcoming-matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .groups {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
