@@ -365,6 +365,7 @@ Information Section index.html Ends
         text-align: center;
         align-items: center;
         border-radius: 0px;
+        overflow: hidden;
     }
 
     .banner-info {
@@ -407,6 +408,10 @@ Information Section index.html Ends
 
     .site-buttons {
         background-color: #FFFFFF;
+    }
+
+    .site-buttons button {
+        border: 1px solid #ddd;
     }
 
     .blogs {
