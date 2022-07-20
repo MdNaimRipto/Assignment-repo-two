@@ -95,7 +95,8 @@
 ------------------------------------------*/
 
 .single-blog,
-.single-matches {
+.single-matches,
+.single-group {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -232,6 +233,41 @@ Information Section index.html Ends
 /*----------------------------------------------
  Information Section upcoming-matches.html ends 
  ----------------------------------------------*/
+
+/*---------------------------------------
+  Information Section groups.html Starts 
+  --------------------------------------*/
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}
+
+.single-group {
+    margin: 40px 0px;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 8px;
+}
+
+.group-name h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #161616;
+    font-weight: 600;
+}
+
+.group-teams img {
+    width: 14%;
+}
+
+.group-teams span {
+    color: #4d4d4d;
+    font-size: 14px;
+    font-weight: 600;
+
+}
 
 /*------------------------
  Information Section Ends 
