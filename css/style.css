@@ -90,6 +90,24 @@
   Information Section Starts 
   ---------------------------*/
 
+/*-----------------------------------------
+   Information Section Common Style Starts
+------------------------------------------*/
+
+.single-blog,
+.single-matches {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------------
+ Information Section Common Style Ends 
+ ---------------------------------------*/
+
+/*-------------------------------------
+  Information Section index.html starts 
+  -------------------------------------*/
 .information-section {
     display: flex;
     column-gap: 15px;
@@ -134,12 +152,6 @@
     grid-column-gap: 15px;
 }
 
-.single-blog {
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
 .single-blog button {
     padding: 3px 8px;
     color: #161616;
@@ -175,6 +187,51 @@
     color: #161616;
     font-weight: 400;
 }
+
+/*----------------------------------
+Information Section index.html Ends 
+------------------------------------*/
+/*------------------------------------------------
+ Information Section upcoming-matches.html Starts 
+ -------------------------------------------------*/
+
+.upcoming-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+
+.single-matches {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.match-teams {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.match-teams strong {
+    line-height: 55px;
+}
+
+.match-details h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #161616;
+    margin-bottom: 10px;
+}
+
+.match-details p {
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
+/*----------------------------------------------
+ Information Section upcoming-matches.html ends 
+ ----------------------------------------------*/
 
 /*------------------------
  Information Section Ends 
@@ -229,3 +286,7 @@
     text-align: center;
     line-height: 30px;
 }
+
+/*------------
+ Footer Ends 
+ ------------*/
