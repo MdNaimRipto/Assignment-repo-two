@@ -345,3 +345,84 @@ Information Section index.html Ends
 /*------------
  Footer Ends 
  ------------*/
+
+/*-------------------------
+ Responsive Section Starts 
+ -------------------------*/
+
+/*-------------
+ Mobile Device
+ --------------*/
+
+@media screen and (max-width:576px) {
+    .container {
+        padding: 0px 0px;
+        margin-top: 30px;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .banner-info {
+        width: 400px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        position: static;
+    }
+
+    .banner-info h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .banner-info p {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 20px 0px;
+    }
+
+    .banner-info button {
+        position: static;
+    }
+
+    .banner-image {
+        width: 400px;
+        position: static;
+    }
+
+    .banner-image img {
+        position: static;
+    }
+
+    .information-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-buttons {
+        background-color: #FFFFFF;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .single-blog {
+        width: 315px;
+        margin: auto;
+    }
+
+    .footer h2 {
+        width: 320px;
+        text-align: inherit;
+    }
+
+    .footer-info {
+        display: grid;
+        gap: 15px;
+    }
+}
