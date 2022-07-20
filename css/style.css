@@ -425,4 +425,12 @@ Information Section index.html Ends
         display: grid;
         gap: 15px;
     }
+
+    .upcoming-matches {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .groups {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
