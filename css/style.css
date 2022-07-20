@@ -84,3 +84,42 @@
 /*-----------
  Header Ends 
  -----------*/
+
+/*----------------------------
+  Information Section Starts 
+  ---------------------------*/
+
+.information-section {
+    display: flex;
+}
+
+.site-buttons {
+    width: 250px;
+    background-color: #161616;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.site-buttons button {
+    width: 210px;
+    height: 40px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site-buttons button a {
+    text-decoration: none;
+    color: #161616;
+}
+
+#selected-button {
+    background-color: #DD0000;
+}
+
+#selected-button a {
+    color: #FFFFFF;
+}
