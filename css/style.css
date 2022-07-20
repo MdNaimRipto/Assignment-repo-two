@@ -53,7 +53,7 @@
 }
 
 .banner-info button {
-    background-color: #DD0000;
+    background-color: #f33030;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;
@@ -135,7 +135,7 @@
 }
 
 #selected-button {
-    background-color: #DD0000;
+    background-color: #f33030;
 }
 
 #selected-button a {
@@ -282,7 +282,7 @@ Information Section index.html Ends
 
 .view-all {
     color: #FFFFFF;
-    background-color: #DD0000;
+    background-color: #f33030;
     padding: 10px 30px;
     margin: auto;
     display: none;
@@ -515,5 +515,9 @@ Tablet Device
 
     .groups {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .selected-group {
+        display: none;
     }
 }
