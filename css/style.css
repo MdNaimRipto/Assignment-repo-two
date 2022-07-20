@@ -237,6 +237,18 @@ Information Section index.html Ends
  Information Section Ends 
  ------------------------*/
 
+.view-all {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px 30px;
+    margin: auto;
+    display: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
 /*------------------
   Footer Starts 
   -----------------*/
